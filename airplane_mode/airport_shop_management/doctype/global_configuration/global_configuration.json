@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-27 13:17:58.102971",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "global_configuration_section",
+  "rent_amount",
+  "rent_remainder"
+ ],
+ "fields": [
+  {
+   "fieldname": "global_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Global Configuration"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rent Amount",
+   "options": "1000"
+  },
+  {
+   "default": "0",
+   "fieldname": "rent_remainder",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Rent Remainder Enabled"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 13:25:45.978320",
+ "modified_by": "Administrator",
+ "module": "airport_shop_management",
+ "name": "Global Configuration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

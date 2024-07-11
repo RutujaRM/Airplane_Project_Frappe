@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-07 11:43:33.890872",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "names",
+  "scode"
+ ],
+ "fields": [
+  {
+   "fieldname": "names",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Airport Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SCode",
+   "non_negative": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-09 22:17:43.490522",
+ "modified_by": "Administrator",
+ "module": "airplane_mode",
+ "name": "Source Airport",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

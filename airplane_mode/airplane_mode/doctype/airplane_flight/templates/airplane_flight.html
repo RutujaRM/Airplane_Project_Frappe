@@ -1,0 +1,28 @@
+ {% extends "templates/web.html" %}  <!-- This is frappe built in template comes from frappe repository
+                                      Also customize own template through html and Jinja -->
+
+
+
+{% block page_content %}
+<h1>{{ title |e }}</h1>
+<h3>Source Airport :- {{source_airport}} </h3>
+<h3>Destination Airport :- {{destination_airport}} </h3>
+<h6>S-Code :- {{source_airport_code}} </h6> 
+<h6>D-Code :- {{destination_airport_code}} </h6> 
+
+<h5>Date of Departure :- {{date_of_departure}} </h5>
+<h5>Time of Departure :- {{time_of_departure}} </h5>
+<h4>Duration :- {{duration}} </h4>
+<h4>Status :- {{status}} </h4>
+
+ {% if image %}
+   <img src="{{image}} " />
+ {% else %}  
+    <span>No Image available</span>
+ {% endif %}
+ 
+ <a class="btn btn-info" href="/book-ticket/new?flight={{doc.name}}&flight_price={{ doc.airplane_ticket }}">Book Ticket </a>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
+ 

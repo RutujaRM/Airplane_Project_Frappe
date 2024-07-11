@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-06-10 15:24:57.199390",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "airplane_ticket_add_on_type_section",
+  "description",
+  "seat_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "airplane_ticket_add_on_type_section",
+   "fieldtype": "Section Break",
+   "label": "Airplane Ticket Add on Type"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Meal Description"
+  },
+  {
+   "fieldname": "seat_description",
+   "fieldtype": "Data",
+   "label": "Seat Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-10 17:51:57.869497",
+ "modified_by": "Administrator",
+ "module": "airplane_mode",
+ "name": "Airplane Ticket Add-on Type",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

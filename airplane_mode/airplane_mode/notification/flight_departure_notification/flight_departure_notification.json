@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"Scheduled\"",
+ "creation": "2024-06-17 11:52:23.725147",
+ "date_changed": "date_of_departure",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Airplane Flight",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Hey,Tommorow Flight has Arrived !! \u263a\ufe0f</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-06-22 12:44:30.248181",
+ "modified_by": "admin@gmail.com",
+ "module": "airplane_mode",
+ "name": "Flight Departure Notification",
+ "owner": "admin@gmail.com",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "\"{{doc.airplane}} Departs in 24 Hours !!\". "
+}

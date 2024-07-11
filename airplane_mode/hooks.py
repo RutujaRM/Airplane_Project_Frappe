@@ -4,14 +4,20 @@ app_publisher = "airplane_mode"
 app_description = "airplane_mode"
 app_email = "rutujamashere7@gmail.com"
 app_license = "mit"
+
+
 # required_apps = []
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/airplane_mode/css/airplane_mode.css"
+app_include_css = [
+    "/assets/airplane_mode/css/airplane_mode.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"  # Add Font Awesome CDN Link
+]
 # app_include_js = "/assets/airplane_mode/js/airplane_mode.js"
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/airplane_mode/css/airplane_mode.css"

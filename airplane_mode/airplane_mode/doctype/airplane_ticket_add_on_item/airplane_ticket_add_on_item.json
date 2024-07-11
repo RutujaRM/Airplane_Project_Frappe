@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-10 17:52:46.709281",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "airplane_ticket_add_on_item_section",
+  "item",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "airplane_ticket_add_on_item_section",
+   "fieldtype": "Section Break",
+   "label": "Airplane Ticket Add on Item"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Airplane Ticket Add-on Type",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "options": "Rupees",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-13 23:02:47.371787",
+ "modified_by": "Administrator",
+ "module": "airplane_mode",
+ "name": "Airplane Ticket Add on Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
